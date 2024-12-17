@@ -20,5 +20,8 @@
     "scripts": {
         "tests": "./vendor/bin/phpunit",
         "fixer": "./vendor/bin/php-cs-fixer fix --diff"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
     }
 }
